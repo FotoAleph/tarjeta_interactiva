@@ -45,3 +45,5 @@ document.getElementById("stop").addEventListener("click",
 
 document.addEventListener("DOMContentLoaded", cuentaAtras);
 const intervalo = setInterval(cuentaAtras, 1000);
+
+const isabeela = document.getElementById("isabella");
