@@ -1,6 +1,6 @@
 :root {
     --pink: #ffc0cb;
-    --pastel-blue: #aec6cf;
+    --pastel-blue: #b0e8fc;
     --white: #ffffff;
     --text-color: #05455a;
     --card-bg: rgba(251, 213, 213, 0.5);
@@ -17,6 +17,14 @@ h1 {
   font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h3 {
+  font-family: "Parisienne", cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 150%;
+  text-align: center;
 }
 
 main {
@@ -39,6 +47,7 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+    margin: 1rem auto;
 }
 section {
     padding: 2rem;
@@ -131,7 +140,7 @@ section {
 }
 
 .tiempo_magnitud, .puntos_horas {
-    color: rgb(255, 104, 151);
+    color: #ff6897;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     text-align: center;
@@ -146,20 +155,15 @@ section {
 picture > caption {
     display: none;
 }
-.nombre_quince {
-    font-family: "Great Vibes", cursive;
-    font-weight: 800;
-    font-size: x-large;
-    font-style: normal;
-    margin: -2rem 0  auto;
-}
+
 
 .titulo_tiempo {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
 }
 .nombre_quince > h1,h2 {
+    font-family: "Great Vibes", cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     margin-block: 0;
@@ -173,7 +177,7 @@ picture > caption {
 
 .mensaje {
      
-     transform: rotate(5deg);
+     transform: rotate(2deg);
      position: relative;
      bottom: 2rem;
      width: 100%;
@@ -186,4 +190,113 @@ picture > caption {
 }
 .img__pag-5 {
     width: 100%;
+}
+.img__info {
+    width: 10rem;
+    padding: 0.5rem;
+    height: auto;
+}
+.trajes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img__trajes {
+    
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.colores  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+   
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%; 
+    content: "";
+   
+}
+
+.circle__rosado {
+    background-color: #ffc0cb;
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.circle__azul {
+    background-color: aqua;
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.img__party {
+    width: 8rem;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.text__left{
+ text-align: left;
+}
+.text__right {
+    text-align: right;
+}
+
+.page_3 {
+  
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #ed8697;
+
+    
+}
+.nombre_quince {
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-size: x-large;
+    font-style: normal;
+    margin: auto;
+}
+.btn__ubicacion {
+    margin: 1rem auto;
+    color: #ffffff;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    text-decoration: none;
+    font-style: italic;
+    background: #05455a;
+    padding: 0.5rem;
+    border-radius:0.8rem;
+}
+.hora__info {
+    font-weight: 800;
+}
+
+.page_8 {
+    height: 100dvh;
+    background-image: url("../img/foto-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stop_music {
+    padding: 0.45rem;
+    border-radius: 16px;
+    background-color: var(--pastel-blue);
+    color: var(--pink);
+}
+.stop_music:focus {
+    background-color: var(--pink); 
+    color:var(--pastel-blue);
 }

@@ -14,7 +14,11 @@
 <body>
     <main>
         <section class="page_1">
-            <img class="img__rama" src="./assets/img/rama-1.svg" alt="🍇">
+            <div class="header">
+                         <img class="img__rama" src="./assets/img/rama-1.svg" alt="🍇">
+                         <img class="img__party" src="./assets/img/party-decoration-svgrepo-com.svg" alt="">
+            </div>
+   
             <header class="header__section">
 
                 <img src="assets/img/Isabella.svg" class="img__isabella" alt="Isabella" title="Isabella">
@@ -25,11 +29,11 @@
 
             </header>
             <div class="card">
-                <p>Dale play</p>
+                <p class="text__left">Dale play</p>
                 <img class="play_circle" src="assets/img/play.svg" onclick="inicioAudio()" alt="🎶">
                 <audio id="birthday-song"
                     src="assets/music/La Bella e la Bestia - Leandro Renzi Violinista.mp3"></audio>
-                <p>a este nuevo comienzo</p>
+                <p class="text__right">a este nuevo comienzo</p>
             </div>
 
         </section>
@@ -63,7 +67,7 @@
             </div>
         </section>
         <div class="banner_separador"></div>
-        <section>
+        <section class="page_3">
             <header class="nombre_quince">
                 <h2>Dana Isabella </h2>
                 <h3>Robles Rojas </h3>
@@ -80,33 +84,31 @@
 
         </section>
         <section>
+            <div class="card">
             <h3 class="titulo__encabezado">Recepción</h3>
             <a href="https://calendar.app.google/25BiMTf7oaLjHsVn8" class="link__calendario"
                 title="Alba Yaneth y Fausto">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="64px" viewBox="0 -960 960 960" width="64px"
-                        fill="#aec6cf">
-                        <path
-                            d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z" />
-                    </svg>
-                    <p>Sábado 22 de noviembre del 2025 </p>
+                    <img src="./assets/img/calendario-1.svg" class="img__info" alt="22 de nov">
+                    <p>Sábadop </p>
+                    <p>22 de noviembre del 2025 </p>
+                    <h4 class="hora__info">6:30 pm</h4>
                 </div>
             </a>
-                <div>
+            </div>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                        fill="#5f6368">
-                        <path
-                            d="m80-80 200-560 360 360L80-80Zm132-132 282-100-182-182-100 282Zm370-246-42-42 224-224q32-32 77-32t77 32l24 24-42 42-24-24q-14-14-35-14t-35 14L582-458ZM422-618l-42-42 24-24q14-14 14-34t-14-34l-26-26 42-42 26 26q32 32 32 76t-32 76l-24 24Zm80 80-42-42 144-144q14-14 14-35t-14-35l-64-64 42-42 64 64q32 32 32 77t-32 77L502-538Zm160 160-42-42 64-64q32-32 77-32t77 32l64 64-42 42-64-64q-14-14-35-14t-35 14l-64 64ZM212-212Z" />
-                    </svg>
-                   <p> Salón comunal de la amistad 6:30 pm</p>  
+                <div class="card">
+                    <img src="./assets/img/mirror-ball-disco-svgrepo-com.svg" class="img__info"  alt="">
+
+                   <p> Salón comunal</p>  
+                   <h4>La Amistad</h4>
+                
                             <a href="https://maps.app.goo.gl/7pvgC3g9stuRWSbD6"  class="btn__ubicacion">
-                            ver ubicacion    
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffc0cb"><path d="M480-388q54-50 84-80t47-50q16-20 22.5-37t6.5-37q0-36-26-62t-62-26q-21 0-40.5 8.5T480-648q-12-15-31-23.5t-41-8.5q-36 0-62 26t-26 62q0 21 6 37t22 36q17 20 46 50t86 81Zm0 202q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                            ver ubicacion
                             </a>
                 </div>
-             
-
-    
+                
 
             <h3 class="titulo__encabezado"> </h3>
         </section>
@@ -121,12 +123,50 @@
         <section>
             <h3>Codigo de vestimenta</h3>
             <h4>Etiqueta Formal</h4>
-
-            <div>
-                <div> rosado pastel </div>
-                <div>azul pastel</div>
+            <div class="trajes">
+                <img src="./assets/img/dress-svgrepo-com.svg" class="img__trajes" title="ellas divinas" alt="ellas divinas">
+                <img src="./assets/img/suit-and-tie-outfit-svgrepo-com.svg" class="img__trajes" alt="Ellos eelgantes">
             </div>
 
+            <div class="card">
+            
+            <h4>nos reservamos los  colores</h4>
+            <div class="colores">
+            
+                <div class="circle circle__rosado" title="rosa pastel"></div>
+                <div  class="circle circle__azul" title="azul pastel"></div>
+            </div>
+            </div>
+
+        </section>
+
+        <section>
+
+          <h3>Nos encantaría contar con tu presencia </h3>  
+            <picture id="confirmar">
+                <img src="./assets/img/confirama_asistencia.svg" class="img__pag-5" title="confirmar asistencia 3122948050" alt="confirmar asistencia 3122948050">
+            </picture>
+       <div class="card">
+            <picture>
+                <img src="./assets/img/gift-box.svg" class="img__info" alt="regalo" title="regalo">
+            </picture>
+            <h3>Lluvia de sobres o regalo</h3>
+            <p>Pero recuerda lo más importante para mí es tu compañía</p>
+       </div>
+
+
+            <h3>Recomendaciones:</h3>
+            <ul>
+                <li>! Llega a tiempo ! Queremos que disfrutes cada momento juntos.</li>
+                <li>! Ríe y disfruta ! Este día está hecho para celebrar y crear recuerdos </li>
+            </ul>
+
+        </section>
+        <section class="page_8">
+
+            <span class="stop_music" id="stop">
+                stop music
+            </span>
         </section>
     </main>
 
