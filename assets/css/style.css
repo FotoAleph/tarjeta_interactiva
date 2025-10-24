@@ -41,6 +41,17 @@ header {
     width: 100%;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .card {
     background-color: var(--card-bg);
     padding: 2rem;
@@ -48,6 +59,7 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     margin: 1rem auto;
+    animation: fadeIn 1s ease-in-out;
 }
 section {
     padding: 2rem;
@@ -142,7 +154,7 @@ section {
 .tiempo_magnitud, .puntos_horas {
     color: #ff6897;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
+    font-size: 320%;
     text-align: center;
 }
 
@@ -299,6 +311,14 @@ picture > caption {
 .stop_music:focus {
     background-color: var(--pink); 
     color:var(--pastel-blue);
+}
+
+.img__trajes, .img__info, .img__pag-5, .img__isabella, .img__mis_15, .img__rama, .img__party {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img__trajes:hover, .img__info:hover, .img__pag-5:hover, .img__isabella:hover, .img__mis_15:hover, .img__rama:hover, .img__party:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1080px) {
