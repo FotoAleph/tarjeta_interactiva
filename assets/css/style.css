@@ -1,0 +1,189 @@
+:root {
+    --pink: #ffc0cb;
+    --pastel-blue: #aec6cf;
+    --white: #ffffff;
+    --text-color: #05455a;
+    --card-bg: rgba(251, 213, 213, 0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+     background-color: var(--pink);
+     width: 100%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     justify-content: center;
+     align-items: center;
+     color: var(--text-color);
+
+}
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+section {
+    padding: 2rem;
+    width: 100%;
+  
+}
+
+.page_1 {
+
+    background-image: linear-gradient(to bottom, rgba(248, 45, 160, 0.5), rgba(255, 188, 224, 0.5)), 
+    url('../img/foto-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.banner_separador{
+    height: 8rem;
+    background-image: linear-gradient(to bottom, rgba(248, 45, 160, 0.3), rgba(255, 188, 224, 0.3)),
+    url('../img/foto-2.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page_1 > .card {
+    width: 100%;
+    margin: 3rem auto;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.play_circle {
+    color: var(--text-color);
+    fill: var(--white);
+    white-space: nowrap;
+    width: 8rem;
+    height: auto;
+    
+}
+
+.play_circle:focus-visible {
+    color: #ed8697;
+    fill: #ed8697;
+}
+.subtuitulo {
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    border-radius: 2rem;
+    background-color: rgba(248, 45, 160, 0.5);
+}
+.img__mis_15  {
+    width: 126px;
+    max-width: 66%;
+    height: auto;
+    color: aqua;
+}
+.img__isabella {
+    width: 320px;
+    max-width:88%;
+
+}
+.img__mariposas {
+    display: flex;
+    position: sticky;
+    height: 64px;
+    object-fit: cover;
+    right: 0px;
+    width: 100dvw;
+    max-width: 1080px;
+}
+
+.img__rama {
+    width: 5rem;
+}
+
+
+
+.grid__7 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+
+}
+
+.tiempo_magnitud, .puntos_horas {
+    color: rgb(255, 104, 151);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.etiqueta_tiempo {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: smaller;
+
+}
+picture > caption {
+    display: none;
+}
+.nombre_quince {
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-size: x-large;
+    font-style: normal;
+    margin: -2rem 0  auto;
+}
+
+.titulo_tiempo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.nombre_quince > h1,h2 {
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+
+}
+
+.nombre_quince_padres {
+    text-align: center;
+}
+
+
+.mensaje {
+     
+     transform: rotate(5deg);
+     position: relative;
+     bottom: 2rem;
+     width: 100%;
+
+}
+.link__calendario {
+ text-decoration: none;
+ text-align: center;
+ color: var(--text-color);
+}
+.img__pag-5 {
+    width: 100%;
+}
