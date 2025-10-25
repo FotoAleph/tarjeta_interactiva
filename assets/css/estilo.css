@@ -6,6 +6,10 @@
     --card-bg: rgba(251, 213, 213, 0.5);
 }
 
+body {
+    background-color: #ff6897;
+}
+
 * {
     padding: 0;
     margin: 0;
