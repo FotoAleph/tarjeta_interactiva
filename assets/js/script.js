@@ -32,7 +32,7 @@ const inicioAudio = () => {
 
 document.getElementById("confirmar").addEventListener("click", 
     () => {
-        window.location.href = "https://api.whatsapp.com/send?phone=573122948050&text=Hola%2C%20confirmo%20mi%20asistencia%20a%20tu%20fiesta%20de%20cumplea%C3%B1os.%20%C2%A1Nos%20vemos%20all%C3%AD%21";
+        window.location.href = "https://api.whatsapp.com/send?phone=573122948040&text=Hola%2C%20confirmo%20mi%20asistencia%20a%20tu%20fiesta%20de%20cumplea%C3%B1os.%20%C2%A1Nos%20vemos%20all%C3%AD%21";
     }       
     )
 

@@ -1,0 +1,351 @@
+:root {
+    --pink: #ffc0cb;
+    --pastel-blue: #b0e8fc;
+    --white: #ffffff;
+    --text-color: #05455a;
+    --card-bg: rgba(251, 213, 213, 0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Parisienne", cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 150%;
+  text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+main {
+     background-color: var(--pink);
+     width: 100%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     justify-content: center;
+     align-items: center;
+     color: var(--text-color);
+
+}
+header {
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 1rem auto;
+    animation: fadeIn 1s ease-in-out;
+}
+section {
+    padding: 2rem;
+    width: 100%;
+  
+}
+
+ul {
+    padding: 1rem;
+}
+li {
+    padding: auto;
+}
+
+.page_1 {
+
+    background-image: linear-gradient(to bottom, rgba(248, 45, 160, 0.5), rgba(255, 188, 224, 0.5)), 
+    url('../img/foto-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.banner_separador{
+    height: 14rem;
+    background-image: linear-gradient(to bottom, rgba(248, 45, 160, 0.3), rgba(255, 188, 224, 0.3)),
+    url('../img/foto-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.page_1 > .card {
+    width: 100%;
+    margin: 3rem auto;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.play_circle {
+    color: var(--text-color);
+    fill: var(--white);
+    white-space: nowrap;
+    width: 8rem;
+    height: auto;
+    
+}
+
+.play_circle:focus-visible {
+    color: #ed8697;
+    fill: #ed8697;
+}
+.subtuitulo {
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    border-radius: 2rem;
+    background-color: rgba(248, 45, 160, 0.5);
+}
+.img__mis_15  {
+    width: 126px;
+    max-width: 66%;
+    height: auto;
+    color: aqua;
+}
+.img__isabella {
+    width: 320px;
+    max-width:88%;
+
+}
+.img__mariposas {
+    display: flex;
+    position: sticky;
+    height: 64px;
+    object-fit: cover;
+    right: 0px;
+    width: 100dvw;
+    max-width: 1080px;
+}
+
+.img__rama {
+    width: 5rem;
+}
+
+
+
+.grid__7 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+
+}
+
+.tiempo_magnitud, .puntos_horas {
+    color: #ff6897;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 320%;
+    text-align: center;
+}
+
+.etiqueta_tiempo {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: smaller;
+
+}
+picture > caption {
+    display: none;
+}
+
+
+.titulo_tiempo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.nombre_quince > h1,h2 {
+    font-family: "Great Vibes", cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+
+}
+
+.nombre_quince_padres {
+    text-align: center;
+}
+
+
+.mensaje {
+     
+     transform: rotate(2deg);
+     position: relative;
+     bottom: 2rem;
+     width: 100%;
+
+}
+.link__calendario {
+ text-decoration: none;
+ text-align: center;
+ color: var(--text-color);
+}
+.img__pag-5 {
+    width: 100%;
+}
+.img__info {
+    width: 10rem;
+    padding: 0.5rem;
+    height: auto;
+}
+.trajes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img__trajes {
+    
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.colores  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+   
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%; 
+    content: "";
+   
+}
+
+.circle__rosado {
+    background-color: #ffc0cb;
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.circle__azul {
+    background-color: rgb(58, 164, 244);
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.img__party {
+    width: 8rem;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.text__left{
+ text-align: left;
+}
+.text__right {
+    text-align: right;
+}
+
+.page_3 {
+  
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #ed8697;
+
+    
+}
+.nombre_quince {
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-size: x-large;
+    font-style: normal;
+    margin: auto;
+}
+.btn__ubicacion {
+    margin: 1rem auto;
+    color: #ffffff;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    text-decoration: none;
+    font-style: italic;
+    background: #05455a;
+    padding: 0.5rem;
+    border-radius:0.8rem;
+}
+.hora__info {
+    font-weight: 800;
+}
+
+.page_8 {
+    height: 100dvh;
+    background-image: url("../img/foto-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colores__fondo {
+    
+    background-image: url("../img/party-decoration-svgrepo-com.svg");
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.stop_music {
+    padding: 0.45rem;
+    border-radius: 16px;
+    background-color: var(--pastel-blue);
+    color: var(--pink);
+}
+.stop_music:focus {
+    background-color: var(--pink); 
+    color:var(--pastel-blue);
+}
+
+.img__trajes, .img__info, .img__pag-5, .img__isabella, .img__mis_15, .img__rama, .img__party {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img__trajes:hover, .img__info:hover, .img__pag-5:hover, .img__isabella:hover, .img__mis_15:hover, .img__rama:hover, .img__party:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 1080px) {
+    main {
+        max-width: 640px;
+        margin: auto;
+    }
+    .page_8 {
+        background-size: contain;
+    }
+}
